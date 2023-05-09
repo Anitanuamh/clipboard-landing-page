@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+
+}
+@media only screen and (max-width: 1440px) {
+body{
+place-items: center;
+height: 300vh;
+display: grid;
+text-align: center;
+}
+.main{
+    height: 20vh;
+}
+.main__content{
+
+    height: 200px;
+    width: 700px;
+    background-image:url(images/bg-header-desktop.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__content img{
+    padding-top: 80px;
+    height: 70px;
+}
+.main .container{
+    line-height: 30px;
+}
+.container h1{
+    font-size: 1.5rem;
+}
+.container p{
+    font-size: 1.1rem;
+    opacity: 50%;
+
+}
+.container .btn{
+    background-color: var(--StrongCyan);
+}
+.container button{
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--LightBlue);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.sub-container{
+    height: 10vh;
+    padding-top: 80px;
+    width: 400px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+.sub-container p{
+    opacity: 50%;
+}
+.image-computer{
+    height: 20vh;
+    width: 600px;
+    gap: 20px;
+   
+}
+.image-computer img{
+float: left;  
+  height: 250px;
+    width: 300px;
+}
+.image-computer .text{
+    padding-top: 20px;
+    padding-left: 350px;
+    text-align: center;
+}
+.image-computer .text h3{
+    font-size: 1rem;
+
+}
+.text span{
+    font-size: 0.9rem;
+    opacity: 50%;
+}
+.clipboard{
+    height: 20vh;
+    margin-top: 50px;
+    width: 400px;
+
+}
+.clipboard h4{
+    padding-top: 40px;
+    font-size: 1.2rem;
+}
+.clipboard span{
+    opacity: 40%;
+    font-size: 0.9rem;
+
+}
+.clipboard img{
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+}
+.workflow{
+    height: 40vh;
+   margin-top: 50px;
+}
+.workflow h5{
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+.workflow span{
+    opacity: 50%;
+}
+.workflow .icons{
+    display: flex;
+    gap: 3px;
+}
+
+.icons .sub-icons p{
+    font-size: 0.8rem;
+    opacity: 50%;
+    width: 230px;
+}
+.icons .sub-icons h6{
+    font-size: 1.2rem;
+}
+.sub-icons img{
+    padding-top: 20px;
+    height: 18px;
+}
+
+.logs{
+    height: 10vh;
+    padding-top: 10px;
+}
+.logs .logo{
+    padding-left: 50px;
+    display: flex;
+    gap: 50px;
+    
+}
+.logs .logo img{
+    height: 20px;
+}
+
+.logs h6{
+    opacity: 70%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.logs p{
+    font-size: 0.9rem;
+    opacity: 50%;
+
+}
+.logs .btn{
+
+ background-color: var(--StrongCyan);
+}
+.logs  button{
+    height: 30px;
+    width: 140px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--LightBlue);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    height: 15vh;
+    background-color: whitesmoke;
+}
+footer .details{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+.details .logo-google img{
+    height: 30px;
+    padding-left: 50px;
+}
+.details .social{
+    padding-left: 150px;
+    margin-right: 30px;
+   
+}
+.details .contact{
+    font-size: 0.8rem;
+    opacity: 50%;
+}
+.details .contact:hover,
+.details .social img:hover{
+    cursor: pointer;
+    color: var(--StrongCyan);
+}
+}
